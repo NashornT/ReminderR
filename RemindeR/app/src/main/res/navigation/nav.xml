@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/calendarFrag">
+
+    <fragment
+        android:id="@+id/clima_Frag"
+        android:name="br.com.alura.orgs.ui.fragments.Clima_Frag"
+        android:label="fragment_clima_"
+        tools:layout="@layout/fragment_clima_" >
+        <action
+            android:id="@+id/action_clima_Frag_to_calendarFrag"
+            app:destination="@id/calendarFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/calendarFrag"
+        android:name="br.com.alura.orgs.ui.fragments.calendarFrag"
+        android:label="calendarFrag" >
+        <action
+            android:id="@+id/action_calendarFrag_to_clima_Frag2"
+            app:destination="@id/clima_Frag" />
+    </fragment>
+</navigation>
