@@ -8,10 +8,12 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import br.com.alura.orgs.R
 import br.com.alura.orgs.model.Produto
+import br.com.alura.orgs.ui.activity.MainActivity
+import br.com.alura.orgs.ui.activity.ui.home.HomeFragment
 
 class ListaProdutosAdapter(
-        private val context: Context,
-        private val produtos: List<Produto>
+    private val context: MainActivity,
+    private val produtos: List<Produto>
 ) : RecyclerView.Adapter<ListaProdutosAdapter.ViewHolder>() {
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {

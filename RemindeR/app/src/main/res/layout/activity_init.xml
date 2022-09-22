@@ -43,7 +43,7 @@
                 android:layout_margin="16dp"
                 android:background="@color/azul_cinza"
                 android:textColorHint="@color/abobora"
-                android:hint="Nome:" />
+                android:hint="@string/nome" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/abobora"
             android:layout_margin="16dp"
-            android:text="Entrar" />
+            android:text="@string/entrar" />
 
     </LinearLayout>
 </ScrollView>
