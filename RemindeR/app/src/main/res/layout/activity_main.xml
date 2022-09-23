@@ -34,26 +34,40 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.937"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/ic_baseline_add_24" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton2"
         android:layout_width="63dp"
         android:layout_height="56dp"
-        android:layout_marginTop="532dp"
-        android:layout_marginBottom="143dp"
         android:clickable="true"
         android:contentDescription="TODO"
         android:focusable="true"
         app:backgroundTint="@color/abobora"
-        app:layout_constraintBottom_toBottomOf="@+id/recyclerView"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintHorizontal_bias="0.962"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.878"
         app:srcCompat="@drawable/ic_baseline_calendar_month_24" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="54dp"
+        android:layout_height="56dp"
+        android:clickable="true"
+        android:contentDescription="TODO"
+        android:focusable="true"
+        android:backgroundTint="@color/abobora"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773"
+        app:srcCompat="@drawable/ic_baseline_send_24" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

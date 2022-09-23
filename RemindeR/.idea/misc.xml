@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/gusta/AndroidStudioProjects/RemindeR/app/src/main/res/layout-land/activity_main.xml" value="0.21164021164021163" />
+        <entry key="..\:/Users/gusta/AndroidStudioProjects/RemindeR/app/src/main/res/layout-land/fragment_dias.xml" value="0.21164021164021163" />
+        <entry key="..\:/Users/gusta/AndroidStudioProjects/RemindeR/app/src/main/res/layout/activity_formulario_produto.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/gusta/AndroidStudioProjects/RemindeR/app/src/main/res/layout/activity_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/gusta/AndroidStudioProjects/RemindeR/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/gusta/AndroidStudioProjects/RemindeR/app/src/main/res/layout/fragment_dias.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/gusta/AndroidStudioProjects/ReminderR/RemindeR/app/src/main/res/layout-land/activity_main.xml" value="0.21164021164021163" />
         <entry key="..\:/Users/gusta/AndroidStudioProjects/ReminderR/RemindeR/app/src/main/res/layout/activity_calendar.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/gusta/AndroidStudioProjects/ReminderR/RemindeR/app/src/main/res/layout/activity_dias_restantes.xml" value="0.22826086956521738" />

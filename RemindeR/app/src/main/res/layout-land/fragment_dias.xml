@@ -29,14 +29,14 @@
         android:id="@+id/txtData"
         android:layout_width="224dp"
         android:layout_height="96dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="104dp"
         android:hint="@string/dias_restantes_para_o_fim_do_ano"
         android:textAlignment="center"
         android:textColor="@color/abobora"
         android:textColorHint="@color/abobora"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.256"
+        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -44,10 +44,21 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="76dp"
         android:text="@string/ver_dias_restantes"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_notifications" />
+
+    <Button
+        android:id="@+id/btn_env"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="@string/enviar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.168"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/text_notifications" />
 
